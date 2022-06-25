@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UIs/MainMenu.uss?fileID=7433441132597879392&amp;guid=7c3f937ef0a4351069624149f5362d7c&amp;type=3#MainMenu" />
+    <MenuManager style="width: 50%;">
+        <ui:VisualElement style="flex-direction: column-reverse;">
+            <ui:DropdownField label="Scenes" index="0" choices="Select One" name="dfscenes" tabindex="1" style="width: auto;" />
+        </ui:VisualElement>
+    </MenuManager>
+</ui:UXML>

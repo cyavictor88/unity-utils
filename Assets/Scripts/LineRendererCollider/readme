@@ -1,0 +1,5 @@
+1  Make sure "Main Camera" exists in your scene
+2. Create a scripts with filename "LineRendererCollider.cs" copy the content of LineRendererCollider.cs into it.
+3. LineRendererCollider.s script uses the new input system, if you are on old one input manager, rmb to change two lines( code below have details ))
+4. Create an Empty GameObject in your scene, and add the LineRendererCollider script as a component
+5. click Play, you should be able to see a red line, click on it, will change color, then hooray, collider works

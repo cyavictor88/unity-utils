@@ -21,6 +21,11 @@ public class LineRendererCollider : MonoBehaviour
    int curColor = 0;
    void Start()
    {
+
+        Camera.main.transform.position=new Vector3(0,1f,-10f);
+        Camera.main.transform.rotation= Quaternion.identity;
+
+
        lr = this.gameObject.AddComponent<LineRenderer>();
        lr.material = new Material(Shader.Find("Sprites/Default"));
        lr.material.color = colors[curColor];
@@ -29,8 +34,8 @@ public class LineRendererCollider : MonoBehaviour
        lr.positionCount = 2;
 
        Vector3[] poses = new Vector3[2];
-       poses[0] = new Vector3(0, 10f, 100f);
-       poses[1] = new Vector3(5f, -3f, -4f);
+       poses[0] = new Vector3(0, 5f, 5f);
+       poses[1] = new Vector3(1f, -1f, -4f);
        lr.SetPositions(poses);
 
 

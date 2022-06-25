@@ -1,0 +1,3 @@
+.unity-base-field > .unity-base-field__label {
+    min-width: 0;
+}
